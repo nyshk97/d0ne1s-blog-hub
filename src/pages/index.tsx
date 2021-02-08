@@ -22,7 +22,7 @@ const Page: NextPage = () => {
         removeSiteNameFromTitle={true}
       />
 
-      <section className="home-hero">
+      {/* <section className="home-hero">
         <ContentWrapper>
           <h1 className="home-hero__title">{config.siteMeta.title}</h1>
           {!!config.siteMeta.description && (
@@ -31,15 +31,12 @@ const Page: NextPage = () => {
             </p>
           )}
         </ContentWrapper>
-      </section>
+      </section> */}
 
       <section className="home-members">
         <ContentWrapper>
           <div className="home-section-title-container">
-            <h2 className="home-section-title">Members</h2>
-            <Link href="/members">
-              <a className="home-section-link">See Details →</a>
-            </Link>
+            <h2 className="home-section-title">Sources</h2>
           </div>
 
           <div className="home-members-container">

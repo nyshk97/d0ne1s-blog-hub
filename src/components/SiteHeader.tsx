@@ -8,12 +8,13 @@ export const SiteHeader: React.FC = () => (
     <ContentWrapper>
       <div className="site-header__inner">
         <Link href="/" passHref>
-          <a className="site-header__logo-link">
-            <img
+          <a className="site-header__logo-link" style={{ fontWeight: 'bold', fontSize: '24px' }}>
+            {/* <img
               src="/logo.svg"
               alt={config.siteMeta.title}
               className="site-header__logo-img"
-            />
+            /> */}
+            d0ne1s' blog hub
           </a>
         </Link>
         <div className="site-header__links">

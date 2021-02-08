@@ -1,8 +1,8 @@
 export const config = {
   siteMeta: {
-    title: "Team Blog Hub",
-    teamName: "catnose Inc.",
-    description: "RSS based blog starter kit for teams.",
+    title: "d0ne1s' blog hub",
+    teamName: "d0ne1s",
+    description: "各Blogサービスの記事を集約",
   },
   siteRoot:
     process.env.NODE_ENV === "production"
@@ -10,16 +10,16 @@ export const config = {
       : "http://localhost:3000",
   headerLinks: [
     {
-      title: "About",
-      href: "/about",
+      title: "Profile",
+      href: "https://d0ne1s.anotion.so/",
     },
-    {
-      title: "Company",
-      href: "https://zenn.dev/catnose99/articles/cb72a73368a547756862",
-    },
-    {
-      title: "GitHub",
-      href: "https://github.com/catnose99/team-blog-hub",
-    },
+    // {
+    //   title: "Job carrier",
+    //   href: "https://zenn.dev/catnose99/articles/cb72a73368a547756862",
+    // },
+    // {
+    //   title: "GitHub",
+    //   href: "https://github.com/catnose99/team-blog-hub",
+    // },
   ],
 };
