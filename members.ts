@@ -7,12 +7,12 @@ export const members: Member[] = [
     sources: ["https://note.com/d0ne1s/rss"],
     websiteUrl: "https://note.com/d0ne1s",
   },
-  {
-    name: "Qiita",
-    avatarSrc: "/avatars/qiita.png",
-    sources: ["https://qiita.com/d0ne1s/feed.atom"],
-    websiteUrl: "https://qiita.com/d0ne1s",
-  },
+  // {
+  //   name: "Qiita",
+  //   avatarSrc: "/avatars/qiita.png",
+  //   sources: ["https://qiita.com/d0ne1s/feed.atom"],
+  //   websiteUrl: "https://qiita.com/d0ne1s",
+  // },
   {
     name: "zenn",
     avatarSrc: "/avatars/zenn.jpg",
