@@ -1,6 +1,6 @@
 export const config = {
   siteMeta: {
-    title: "d0ne1s' blog hub",
+    title: "d0ne1s",
     teamName: "d0ne1s",
     description: "各Blogサービスの記事を集約",
   },
@@ -13,13 +13,17 @@ export const config = {
       title: "Profile",
       href: "https://d0ne1s.anotion.so/",
     },
-    // {
-    //   title: "Job carrier",
-    //   href: "https://zenn.dev/catnose99/articles/cb72a73368a547756862",
-    // },
-    // {
-    //   title: "GitHub",
-    //   href: "https://github.com/catnose99/team-blog-hub",
-    // },
+    {
+      title: "Blog",
+      href: "/",
+    },
+    {
+      title: "JobCareer",
+      href: "https://d0ne1s.anotion.so/career",
+    },
+    {
+      title: "Skills",
+      href: "https://d0ne1s.anotion.so/skills",
+    },
   ],
 };
