@@ -14,16 +14,12 @@ export const config = {
       href: "https://d0ne1s.anotion.so/",
     },
     {
-      title: "Blog",
-      href: "/",
-    },
-    {
       title: "JobCareer",
       href: "https://d0ne1s.anotion.so/career",
     },
     {
-      title: "Skills",
-      href: "https://d0ne1s.anotion.so/skills",
-    },
+      title: "Blog",
+      href: "/",
+    }
   ],
 };
